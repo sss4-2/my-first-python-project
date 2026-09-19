@@ -1,0 +1,20 @@
+[project]
+name = "my-first-python-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "<sss4-2>", email = "<s411378049@gm.ntpu.edu.tw>" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "django>=6.1.1",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+my-first-python-project = "my_first_python_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
